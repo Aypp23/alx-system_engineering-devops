@@ -1,2 +1,2 @@
 #!/bin/bash
-echo {a..z}{a..z} | grep -v Oo | tr ' ' '\n'
+echo {a..z}{a..z} | tr ' ' '\n' | grep -v o | grep -v O
